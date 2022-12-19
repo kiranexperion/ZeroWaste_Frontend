@@ -1,0 +1,97 @@
+/* 
+  background-image: url('../../Assets/corporationlogin.png'); */
+  .auth {
+    margin: 6rem auto;
+    width: 95%;
+    max-width: 30rem;
+    border-radius: 20px;
+    /* background-color: #2c8654; */
+    background-image: url('../../Assets/corporationlogin.png');
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+    text-align: center;
+    color: white;
+    /* margin-top: 0px; */
+    /* margin-bottom: 10px; */
+  }
+  
+  .auth h1 {
+    text-align: center;
+    color: rgb(18, 12, 12);
+  }
+  
+  .control {
+    margin-bottom: 0.5rem;
+  }
+  
+  .control label {
+    display: block;
+    color: rgb(23, 15, 15);
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .control input {
+    font: inherit;
+    background-color: #f8f6fa;
+    /* color: #120d15; */
+    border-radius: 4px;
+    border: 1px solid white;
+    width: 100%;
+    text-align: left;
+    padding: 0.25rem;
+  }
+  
+  .actions {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  input:required {
+  border-color: black;
+}
+  input:invalid{
+    background-color: ivory;
+    border: none;
+    outline: 2px solid red;
+    border-radius: 5px;
+  }
+  /* input:valid {
+    border-color: #0a0a0a;
+  } */
+  
+  .actions button {
+    cursor: pointer;
+    font: inherit;
+    color: white;
+    background-color: #3fa380;
+    border: 1px solid #131015;
+    border-radius: 10px;
+    padding: 0.5rem 2.5rem;
+  }
+  
+  .actions button:hover {
+    background-color: #000000;
+    border-color: #fdfcfe;
+  }
+  
+  .actions .toggle {
+    margin-top: -70px;
+    background-color: transparent;
+    color: #0a0a0a;
+    border: none;
+    padding: 0.15rem 1.5rem;
+  }
+  
+  .actions .toggle:hover {
+    background-color: transparent;
+    color: #20472d;
+  }
+  .control .required-field {
+    content: "hello";
+    color: rgb(0, 0, 0);
+  }
+.control i{
+  color: red;
+}

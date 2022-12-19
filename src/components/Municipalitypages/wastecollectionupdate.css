@@ -1,0 +1,103 @@
+.slotdate{
+    margin-bottom: 10px;
+    text-decoration: solid;
+    color: rgb(60, 59, 59);
+    text-align: left;
+    
+}
+.itemm
+{
+    color: rgb(60, 59, 59);
+    text-decoration: solid;
+    font-size: 150%;
+}
+
+.register{
+    /* margin-bottom: 10px; */
+    background-image: url('../../Assets/corporationlogin.png');
+    background-size: cover;
+}
+
+.buttonss{
+    /* display: flex; */
+    /* margin:auto; */
+    /* margin-top: 10px; */
+    align-items: center;
+    margin-left: 200px;
+   
+   
+}
+.button{
+    /* display: flex; */
+    /* margin:auto; */
+    /* margin-top: 5px; */
+    align-items: center;
+    margin-left: 200px;
+   
+   
+}
+
+.butn {
+    margin-bottom: 30px;
+    font: inherit;
+    border: 1px solid #4f005f;
+    background: #4f005f;
+    color: white;
+    padding: 0.75rem 3.5rem;
+    cursor: pointer;
+    font-size: 1.15rem;
+    border-radius: 30px;
+    background: rgb(27, 25, 25);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    /* margin:auto; */
+    width: auto;
+    height: auto;
+    /* margin-left: -100px; */
+   
+   
+  }
+  .butnn {
+    margin-left: 5px;
+    /* margin-top: -50px; */
+    font: inherit;
+    border: 1px solid #4f005f;
+    background: #4f005f;
+    color: white;
+    padding: 0.75rem 3.5rem;
+    cursor: pointer;
+    font-size: 1.15rem;
+    border-radius: 30px;
+    background: rgb(27, 25, 25);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    /* margin:auto; */
+    width: auto;
+    height: auto;
+    /* margin-left: -100px; */
+   
+   
+  }
+  .custom-select select{
+    display: no none;
+  }
+  .custom-select{
+    position: relative;
+  }
+  .select-items div{
+    color: green;
+    padding:8px 16px;
+    border:1px solid transparent;
+    cursor: pointer;
+    user-select: none;
+  }
+ .dropdownn option{
+width: 600px;
+  }
+  @media (min-width: 768px) {
+    .control {
+      align-items: center;
+      flex-direction: row;
+    }
+  }
+   h6{
+    margin-top: 10px;
+  }

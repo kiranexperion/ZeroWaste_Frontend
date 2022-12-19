@@ -1,0 +1,82 @@
+.slotbooked-header{
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    border: 2px solid #292626;
+ 
+  }
+  
+  .slotbooked{
+   margin-left: 20%;
+   width: 40%;
+   padding: 20px;
+   border-radius: 30px;
+   margin-top: 100px;
+   display: flex;
+   flex-direction: column;
+   box-sizing: border-box;
+   margin-bottom: 150px;
+   align-items: center;
+   
+  
+  }
+  
+  .slotbooked h1{
+    margin-left: 50%;
+     margin-top: 100px;
+     margin-bottom: 50px;
+     color:rgb(0, 0, 0);
+  }
+  .details h3{
+  text-align: center;
+  }
+  .details p{
+     margin-left: 500px;
+     text-align: left;
+  }
+  
+  .print
+  {
+     margin-bottom: 250px;
+  }
+  .buttons{
+     display: flex; 
+  }
+  
+  .slotbtn {
+    font: inherit;
+    border: 1px solid #4f005f;
+    background: #4f005f;
+    color: white;
+    padding: 0.75rem 3.5rem;
+    cursor: pointer;
+    font-size: 1.15rem;
+    border-radius: 30px;
+    background: rgb(27, 25, 25);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    margin:auto;
+    align-items: center;
+    text-decoration: none;
+    justify-content: center;
+   
+    
+  }
+  
+  .slotbtn:hover,
+  .slotbtn:active {
+    background: #741188;
+    border-color: #741188;
+  }
+  
+  .slotbtn:focus {
+    outline: none;
+  }
+  #one{
+    margin-right: 100%;
+    margin-left: -10%;
+    padding: auto;
+  }
+  #two{
+    margin-right: -70%;
+    padding: auto;
+  }

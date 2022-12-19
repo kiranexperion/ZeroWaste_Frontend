@@ -1,0 +1,7 @@
+.welcome{
+    margin-top: 200px;
+    margin-bottom: 500px;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+   background-image: url('https://elements-cover-images-0.imgix.net/7673b6ec-b5cd-4ec0-b4f4-7a255beb72b9?auto=compress%2Cformat&fit=max&w=2740&s=6014e087596457f0050740e53c10739a');
+}

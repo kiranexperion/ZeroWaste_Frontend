@@ -1,0 +1,59 @@
+.wrap {
+    display: flex;
+    
+}
+.forms {
+    text-align: center;
+    background-image: url("../../../Assets/corporationlogin.png");
+    box-shadow: 0 0px 10px rgba(40, 40, 40, 0.75);
+    border-radius: 5%;
+    width: 800px;
+    height:75vh ;
+   padding: 2%;
+   margin-bottom: 40%;
+   margin-top: 10%;
+   margin-right: 10%;
+   margin-left: 10%;
+   text-align: center;
+   
+
+}
+.text label::after{
+    position: fixed;
+    color: rgb(7, 6, 6);
+    content: "*";
+}
+.control {
+    /* margin: 1rem 4rem; */
+    /* padding-left: 1rem; */
+    justify-content: center;
+    /* width: auto; */
+    padding: 10px;
+    align-items:stretch; 
+   
+}
+
+.control label {
+    margin-right: 1rem;
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+}
+.forms button {
+   
+    background-color: #226938;
+    padding: 2% 3%;
+    margin: 20px 5px;
+    color: white;
+    border: none;
+    font-family: 'Lora', serif;
+    font-size: 15px;
+    font-weight: 450;
+    width: 150px;
+    border-radius: 20px;
+}
+.forms button:hover {
+    background-color: #424855;
+    padding: 2% 3%;
+   
+}

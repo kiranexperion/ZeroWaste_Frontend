@@ -1,0 +1,33 @@
+.bookingstatus{
+    margin-top: 150px;
+}
+
+.bookingstatusreport{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.statushead{
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+.slotdate{
+    align-items: center;
+    margin-left: 80px;
+}
+.table{
+    align-items: center;
+margin-top: 40px;
+margin-bottom: 80px;
+margin-left: 250px;
+margin-right: 50px;
+border-collapse:collapse;
+width: 60%;
+}
+.table td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  button{
+    margin-bottom: 100px;
+  }
